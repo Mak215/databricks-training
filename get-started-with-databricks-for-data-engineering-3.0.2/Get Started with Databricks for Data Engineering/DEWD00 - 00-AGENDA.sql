@@ -1,0 +1,59 @@
+-- Databricks notebook source
+-- MAGIC %md
+-- MAGIC
+-- MAGIC <div style="text-align: center; line-height: 0; padding-top: 9px;">
+-- MAGIC   <img src="https://databricks.com/wp-content/uploads/2018/03/db-academy-rgb-1200px.png" alt="Databricks Learning">
+-- MAGIC </div>
+-- MAGIC
+
+-- COMMAND ----------
+
+-- MAGIC %md
+-- MAGIC # Get Started with Databricks for Data Engineering
+-- MAGIC
+-- MAGIC This course introduces the foundational skills needed to perform a basic data engineering workflow on the **Databricks Data Intelligence Platform**. You will explore the workspace and learn to interact with key objects such as catalogs, schemas, volumes, tables, compute clusters, and notebooks.
+-- MAGIC
+-- MAGIC You will follow a step-by-step workflow covering:
+-- MAGIC
+-- MAGIC - Creating and managing Delta Lake tables
+-- MAGIC - Ingesting data into Delta Lake
+-- MAGIC - Transforming data using the **medallion architecture**
+-- MAGIC - Orchestrating data pipelines with **Databricks Workflows**
+-- MAGIC
+-- MAGIC The course concludes with a comprehensive lab exercise (available with a **Databricks Labs** subscription) that allows you to apply what you’ve learned in a real Databricks Workspace environment.
+-- MAGIC
+-- MAGIC
+-- MAGIC ---
+-- MAGIC ### Prerequisites
+-- MAGIC The content was developed for participants with these skills/knowledge/abilities:
+-- MAGIC - A basic understanding of data engineering principles and topics such as `data collection`, `extraction`, `ingestion`, and `transformation`. 
+-- MAGIC
+-- MAGIC
+-- MAGIC ---
+-- MAGIC
+-- MAGIC ## Course Agenda
+-- MAGIC The following modules are part of the **Data Engineer Learning Path** from Databricks Academy.
+-- MAGIC
+-- MAGIC | # | Module Name | Lesson Name |
+-- MAGIC |---|-------------|-------------|
+-- MAGIC | 1 | [Databricks Overview]($./M1 - Databricks Overview) |  [01 - Databricks Workspace Walkthrough]($./M1 - Databricks Overview/01 - Databricks Workspace Walkthrough) <br>  |
+-- MAGIC | 2 | [Using Databricks for Data Engineering]($./M2 - Using Databricks for Data Engineering) | [01-Creating and Working with a Delta Table]($./M2 - Using Databricks for Data Engineering/DEWD00 - 01-Creating and Working with a Delta Table) <br> [02-Ingesting Data into Delta Lake]($./M2 - Using Databricks for Data Engineering/DEWD00 - 02-Ingesting Data into Delta Lake) <br> [03-Transforming Data Using the Medallion Architecture]($./M2 - Using Databricks for Data Engineering/DEWD00 - 03-Transforming Data Using the Medallion Architecture) <br> [04-Creating a Simple Databricks Job]($./M2 - Using Databricks for Data Engineering/DEWD00 - 04-Creating a Simple Databricks Job) <br> [04A-LakeFlow Task 1 - Setup - Bronze]($./M2 - Using Databricks for Data Engineering/DEWD00 - 04A-Task 1 - Setup - Bronze) <br> [04B-LakeFlow Task 2 - Silver - Gold]($./M2 - Using Databricks for Data Engineering/DEWD00 - 04B-Task 2 - Silver - Gold) <br> [05L - Ingest and Manipulate a Delta Table Lab]($./M2 - Using Databricks for Data Engineering/DEWD00 - 05L - Ingest and Manipulate a Delta Table Lab)  |
+-- MAGIC
+-- MAGIC
+-- MAGIC ---
+-- MAGIC
+-- MAGIC ## Requirements
+-- MAGIC
+-- MAGIC Please review the following requirements before starting the lesson:
+-- MAGIC
+-- MAGIC - Use Databricks Runtime version: **`16.4.x-scala2.12`** to run all demo and lab notebooks.
+
+-- COMMAND ----------
+
+-- MAGIC %md
+-- MAGIC
+-- MAGIC &copy; 2025 Databricks, Inc. All rights reserved. Apache, Apache Spark, Spark, the Spark Logo, Apache Iceberg, Iceberg, and the Apache Iceberg logo are trademarks of the <a href="https://www.apache.org/" target="blank">Apache Software Foundation</a>.<br/>
+-- MAGIC <br/><a href="https://databricks.com/privacy-policy" target="blank">Privacy Policy</a> | 
+-- MAGIC <a href="https://databricks.com/terms-of-use" target="blank">Terms of Use</a> | 
+-- MAGIC <a href="https://help.databricks.com/" target="blank">Support</a>
+-- MAGIC
